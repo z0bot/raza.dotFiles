@@ -1,0 +1,103 @@
+[options]
+#allow_bold = true
+#audible_bell = false
+#bold_is_bright = true
+#cell_height_scale = 1.0
+#cell_width_scale = 1.0
+#clickable_url = true
+#dynamic_title = true
+font = IBM Plex Mono SemiBold 13
+#fullscreen = true
+#icon_name = terminal
+#mouse_autohide = false
+#scroll_on_output = false
+#scroll_on_keystroke = true
+# Length of the scrollback buffer, 0 disabled the scrollback buffer
+# and setting it to a negative value means "infinite scrollback"
+scrollback_lines = 10000
+#search_wrap = true
+#urgent_on_bell = true
+#hyperlinks = false
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+#browser = xdg-open
+
+# "system", "on" or "off"
+#cursor_blink = system
+
+# "block", "underline" or "ibeam"
+#cursor_shape = block
+
+# Hide links that are no longer valid in url select overlay mode
+#filter_unmatched_urls = true
+
+# Emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# set size hints for the window
+#size_hints = false
+
+# "off", "left" or "right"
+#scrollbar = off
+
+[colors]
+# If both of these are unset, cursor falls back to the foreground color,
+# and cursor_foreground falls back to the background color.
+#cursor = #dcdccc
+#cursor_foreground = #dcdccc
+
+foreground = #f9ff45
+#foreground_bold = #ffffff
+#background = #002b36
+
+# 70% background transparency (requires a compositor)
+#background = rgba(0, 0, 0, 0.7)
+#background = rgba(255,128,142,0.2)
+background = rgba(0,0,0,0.7)
+
+# If unset, will reverse foreground and background
+highlight = #2f2f2f
+
+# Colors from color0 to color254 can be set
+color0 = #3f3f3f
+#color 1 = red
+color1 = #FF004A
+#color 2 = blue
+color2 = #007EFF
+color3 = #dfaf8f
+#color 4 = light purple
+#color4 = #C789FF
+color4 = #F9FF45
+#color 5 = yellow
+color5 = #FEFF00
+color6 = #8cd0d3
+color7 = #dcdccc
+color8 = #709080
+#color 9 = deep green
+color9 = #0C8600
+#color 10 = light green/ highlighted color/ looks more yellow
+color10 = #00D475
+# color 11 = another yellow
+color11 = #A5C829
+#color 12 = ranger/violet purple
+color12 = #FFFFFF
+#color 13 = light purple/colors of hex values
+color13 = #F9FF45
+# color 14 = neofetch / color of comments in here
+color14 = #00FF80
+color15 = #ffffff
+
+[hints]
+# MAJOR: I LIKE THE COLOR 00FFF1
+# IT FEELS LIKE A LIGHT SEA GREEN
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 1.0
+
+# vim: ft=dosini cms=#%s
