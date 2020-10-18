@@ -1,0 +1,91 @@
+!------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! rofi.color-enabled: true
+! first two color-window were a013191c
+! a6 = 65% amount of black needed over white for white to be a 7 contrast score
+! b3 = 70%
+! 80 = 50%
+! rofi.line-margin: 31
+! rofi.font: IBM Plex Mono 30
+! rofi.padding: 168
+rofi.fullscreen: true
+! rofi.display-drun: 
+! rofi.display-window: win
+! rofi.display-combi: myprompt
+rofi.color-enabled: true
+! rofi.separator-style: none
+rofi.color-window: argb:DA222222, argb:DA222222, argb:00222222
+rofi.color-normal: argb:00000000, #e8e8e8, argb:00000000, argb:00000000, #ff803f
+rofi.color-urgent: argb:00000000, #f43753, argb:00000000, argb:00000000, #ff803f
+rofi.color-active: argb:00000000, #49bbfb, argb:00000000, argb:00000000, #ff803f
+ 
+! rofi.font: System San Francisco Display 20
+rofi.font: Quicksand 20
+! rofi.fg: argb:00ffffff
+rofi.eh: 1
+rofi.line-margin: 20
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+rofi.lines: 7
+rofi.width: 50
+rofi.padding: 200
+rofi.bw: 0 
+rofi.auto-select: false 
+rofi.fuzzy: true
+rofi.scroll-method: 1
+rofi.window-format: {w:5} {t}
+rofi.mesg: "hello"
+! rofi.show-icons: true
+
+
+URxvt.internalBorder: 25
+URxvt.scrollBar: false
+URxvt.cursorBlink: true
+URxvt.borderless: true
+URxvt.font: xft:Iosevka:size=8,Ubuntu Mono, Font Awesome 5 Free
+!text colors
+!foreground green zacharys penis
+URxvt.foreground:   #00ad7d
+!text colors when highlighted
+URxvt.background:   #ffffff
+URxvt.cursorColor:  #8B00FF
+!new kludgey code
+URxvt.transparent: true
+URxvt.shading: 15 
+
+! black
+URxvt.color0:       #002b36
+URxvt.color8:       #657b83
+
+! red
+!color1 most of the colors of hex codes in here
+URxvt.color1:       #E85C5C
+URxvt.color9:       #dc322f
+
+! green
+URxvt.color2:       #7fd977
+URxvt.color10:      #00E82C
+
+! yellow
+URxvt.color3:       #b58900
+URxvt.color11:      #b58900
+
+! blue
+! color 4 is color of comments
+! color 12 is ranger
+URxvt.color4:       #3795ff
+URxvt.color12:      #8AC100
+
+! magenta
+URxvt.color5:       #d238ec
+URxvt.color13:      #6c71c4
+
+! cyan/neofetch14
+URxvt.color14:       #ffffff
+URxvt.color6:        #00a196
+
+! white
+! color7 color of zsh line
+URxvt.color7:       #ffffff
+URxvt.color15: #fdf6e3
